@@ -15,3 +15,6 @@ Made in VueJS + Go with ❤
 3. Files will be downloaded straight to the browser
 
 ### Feel free to fork and do whatever
+
+## Development
+Assuming you have setup a Go development environment, *cd* into the web folder and run *npm i*
