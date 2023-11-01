@@ -2,7 +2,9 @@
 
 import {ref} from "vue";
 
-const sessionYear = ref('')
+//get value of current year in javascript
+
+const sessionYear = ref(`${new Date().getFullYear()}/${new Date().getFullYear()+1}`)
 const semester = ref('1')
 function GetFinance() {
   fetch('http://localhost:8080/finance', {
