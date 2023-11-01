@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M1024 0L1024 0L1024 1024L0 1024L0 0L1024 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Icon 1024" clip-path="url(#clip_1)">
+    <path d="M1024 0L1024 0L1024 1024L0 1024L0 0L1024 0Z" id="Icon-1024" fill="#FFFFFF" fill-opacity="0" stroke="none" />
+    <path d="M568.372 410.628L568.372 410.628L568.372 770L308 770C253.316 770 209 725.684 209 671L209 410.628L568.372 410.628Z" id="Rectangle" fill="#59ADFF" stroke="none" />
+    <path d="M607.128 479.331L746.297 479.331L746.297 618.5L607.128 618.5L607.128 479.331Z" id="Rectangle-2" fill="#B5E742" fill-rule="evenodd" stroke="none" />
+    <path d="M675.832 410.628L815 410.628L815 549.797L675.832 549.797L675.832 410.628Z" id="Rectangle-2-Copy" fill="#90C418" fill-rule="evenodd" stroke="none" />
+    <path d="M272.419 266.174C272.419 201.962 324.473 149.907 388.686 149.907C452.899 149.907 504.953 201.962 504.953 266.174C504.953 330.387 452.899 382.442 388.686 382.442C324.473 382.442 272.419 330.387 272.419 266.174Z" id="Oval" fill="#59ADFF" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
