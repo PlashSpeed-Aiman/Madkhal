@@ -1,1 +1,10 @@
 /files/
+/release/
+/index.json
+/main.exe
+/release.zip
+/releasepipeline.bat
+/web/node_modules
+/web/dist
+/web/.vscode
+/web/.idea
