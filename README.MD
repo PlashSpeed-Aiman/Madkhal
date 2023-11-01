@@ -17,4 +17,4 @@ Made in VueJS + Go with ❤
 ### Feel free to fork and do whatever
 
 ## Development
-Assuming you have setup a Go development environment, *cd* into the web folder and run *npm i*
+Assuming you have setup a Go development environment, *cd* into the web folder and run *npm i* afterwards, run *go run main.go*
