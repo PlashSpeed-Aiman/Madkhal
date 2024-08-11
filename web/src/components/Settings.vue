@@ -27,10 +27,10 @@ function savePrefs(){
     <p >Setup your credentials and other settings</p>
     <form class="my-2 flex flex-col gap-2"  @submit.prevent="savePrefs">
       <p class="font-semibold">Matric Number</p>
-      <input class="border rounded px-1 py-1 " v-model="matricNo"/>
+      <input class="border-2 rounded px-1 py-1 " v-model="matricNo"/>
       <p class="font-semibold">Password</p>
-      <input class="border rounded px-1 py-1 " type="password" v-model="password"/>
-      <input class="border bg-slate-500 text-white rounded p-2 hover:bg-slate-800  " type="submit">
+      <input class=" border-2 rounded px-1 py-1 mb-2 " type="password" v-model="password"/>
+      <input class="border border-[#455A64] bg-[#CFD8DC] text-[#212121] transition-colors duration-100 rounded p-2 hover:bg-[#607D8B] hover:text-white text-center" type="submit">
     </form>
   </div>
 </template>

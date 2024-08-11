@@ -73,19 +73,19 @@ function GetConfirmationSlip() {
     <div class="my-2">
       <form>
         <p class="font-semibold">Session (eg 2021/2022)</p>
-        <input v-model="sessionYear" class="border rounded px-1 py-1"/>
+        <input v-model="sessionYear" class="border-2 rounded px-1 py-1"/>
         <p class="font-semibold">Semester</p>
-        <select v-bind="semester" class="border rounded px-1 py-1 w-full">
+        <select v-bind="semester" class="border-2 rounded px-1 py-1 w-full">
           <option>1</option>
           <option>2</option>
           <option>3</option>
         </select>
       </form>
       <div class="flex flex-col justify-center gap-1.5 my-2">
-        <button v-on:click="GetFinance" class="border bg-slate-500 text-white rounded p-2 hover:bg-slate-800 text-center">Finance</button>
-        <button v-on:click="GetResult" class="border bg-slate-500 text-white rounded p-2 hover:bg-slate-800 text-center">Result</button>
-        <button v-on:click="GetConfirmationSlip" class="border bg-slate-500 text-white rounded p-2 hover:bg-slate-800 text-center">Course Confirmation Slip</button>
-        <button v-on:click="GetExamSlip" class="border bg-slate-500 text-white rounded p-2 hover:bg-slate-800 text-center">Exam Slip</button>
+        <button v-on:click="GetFinance" class="border border-[#455A64] bg-[#CFD8DC] text-[#212121] transition-colors duration-100 rounded p-2 hover:bg-[#607D8B] hover:text-white text-center">Finance</button>
+        <button v-on:click="GetResult" class="border border-[#455A64] bg-[#CFD8DC] text-[#212121] transition-colors duration-100 rounded p-2 hover:bg-[#607D8B] hover:text-white text-center">Result</button>
+        <button v-on:click="GetConfirmationSlip" class="border border-[#455A64] bg-[#CFD8DC] text-[#212121] transition-colors duration-100 rounded p-2 hover:bg-[#607D8B] hover:text-white text-center">Course Confirmation Slip</button>
+        <button v-on:click="GetExamSlip" class="border border-[#455A64] bg-[#CFD8DC] text-[#212121] transition-colors duration-100 rounded p-2 hover:bg-[#607D8B] hover:text-white text-center">Exam Slip</button>
       </div>
     </div>
     </div>
